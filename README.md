@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Recipes
+A collection of delicious recipes in a bootstrapped react application.
+
+<img src="public/example.gif">
 
 ## Available Scripts
 
