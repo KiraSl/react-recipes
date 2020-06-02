@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "category": "speedy",
+  "title": "Slow-cooked lamb with orzo",
+  "description": "Nothing complicated, just familiar flavours simmered slowly into something wonderful and comforting.",
+  "image": "/recipe-images/thumb/Greek-lamb-orzo-web.jpg",
+  "recipeDetail": {
+    "serves": "2",
+    "image": "/recipe-images/Greek-lamb-orzo-web.jpg",
+    "description": "<p>There’s nothing complicated going on here, just a collection of familiar flavours simmered together intosomething wonderful and comforting, a whole greater than the sum of its parts. It’s a relaxed one-pot wonderthat requires little attention over its long cooking time.</p><p>Versions of this delicious slow-cooked lamb dish appear on the menu of every family-run taverna (and nearlyevery family) in Greece, where it’s called yiouvetsi. When I island-hopped around the Aegean as a wide-eyedkid, I saw all the compulsory Grecian ruins but it was the food that seared itself into my memory (nosurprise there, I guess). Lamb dishes were everywhere – some cooked with flinty retsina, some with olives,some spiked with heat from tiny dried chillies.</p><p>I’ve taken a simpler route here, then, somewhat paradoxically, fancied it up right at the end, as if toamplify its Greek origins, with the addition of feta and fresh oregano. I think the feta is necessary;the fresh oregano, while wonderful if you have it around, shouldn’t hold you back from making it.</p>",
+    "preparationSteps": [
+      "Set your oven to 180°C (350°F).",
+      "Put the lamb in a casserole dish and sprinkle with a little salt. Add the sliced onion, the cinnamon stick, broken in half, the dried oregano and olive oil. Grate in a clove of garlic. Stir together and roast, uncovered, for 45 minutes, stirring halfway through.",
+      "Stir the tomato paste into the chicken stock and pour over the lamb, together with the diced tomatoes. Don't be alarmed by the amount of liquid at this point: you'll be cooking the orzo in it later.",
+      "Cover the dish and return to the oven for 1½ hours.",
+      "You can break the cooking at this point if you need to. Leave the dish to cool and pick up the cooking later the same day, or cool completely and refrigerate until the next day, if you like.",
+      "Either way, you finish the cooking on the stovetop. Bring the dish up to a rapid simmer and add the orzo. Be guided by recommended cooking time on the pack (some orzo takes a couple of minutes, some brands take 15) and by tasting at regular intervals. The orzo will absorb the liquid and the sauce will thicken up, so stir regularly to prevent it sticking.",
+      "Once cooked, spoon into bowls and serve with a crumbling of feta and some fresh oregano leaves, if using."
+    ],
+    "ingredients": [
+      "750g (1½ pounds) diced shoulder lamb",
+      "1 onion, halved and sliced",
+      "1 cinnamon stick",
+      "1 teaspoon dried oregano",
+      "1 tablespoon olive oil",
+      "1 clove garlic",
+      "1 tablespoon tomato paste",
+      "500ml (2 cups) chicken stock",
+      "200g (7 oz) canned diced tomatoes",
+      "200g (7 oz) orzo",
+      "50g (2 oz) feta",
+      "sea salt flakes",
+      "fresh oregano leaves, to serve (optional)"
+    ]
+  }
+}

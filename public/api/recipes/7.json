@@ -1,0 +1,37 @@
+{
+  "id": 7,
+  "category": "sweet",
+  "title": "Chocolate bônet",
+  "description": "Baked chocolate custard with amaretti crumbs and caramel.",
+  "image": "/recipe-images/thumb/Chocolate-bonet.jpg",
+  "recipeDetail": {
+    "serves": "2",
+    "image": "/recipe-images/Chocolate-bonet.jpg",
+    "description": "<p>This is a quick write-up of a dessert I published on Instagram. I'll update it with the US conversions and notes.</p>",
+    "preparationSteps": [
+      "Set your oven to 160°C (320°F) and have a roasting tin or cake tin big enough to accomodate two 1½-cup ramekins standing by.",
+      "To make the caramel, place the sugar and water in a small saucepan and stir together. Place over medium-high heat and bring to a boil. Don’t stir; you can swirl it around with the handle, but no spoons (it will crystalise if you do). Continue to cook until it turns pale gold. It will continue to get darker quickly, so watch it carefully. Divide it between the ramekins. Set aside.",
+      "Grind the amaretti to a fine powder in a small food processor (or crush them in a bag with a rolling pin). Set aside.",
+      "Warm the milk, either on the stove or in a jug in the microwave. Either way, it only needs to be warm, not hot.",
+      "Place the egg and the extra yolk and sugar in a mixing bowl. Whisk together until combined.",
+      "Sieve in the cocoa and mix thoroughly. Add the vanilla and the crushed amaretti. Mix well.",
+      "Add the warm milk at little at a time, mixing well between each addition.",
+      "Pour the mixture into your ramekins. Set them inside a roasting tin or cake tin and pour in enough hot water to come halfway up the sides.",
+      "Place on the centre shelf of the oven and cook for 45 minutes. Remove from the oven and leave in the water bath until the water is cool, then remove the ramekins, cover and refrigerate for at least six hours, overnight if possible.",
+      "When you’re ready to serve, run a sharp knife around the edge of the ramekin, cover with a serving plate and invert. The caramel will glaze the top and drizzle down the sides."
+    ],
+    "ingredients": [
+      "50g amaretti biscuits",
+      "250ml (1 cup) milk",
+      "1 egg",
+      "1 egg yolk",
+      "50g (3 tablespoons) caster sugar",
+      "35g cocoa",
+      "½ teaspoon vanilla extract"
+    ],
+    "subRecipeDetail": {
+      "title": "caramel",
+      "ingredients": ["50g (3 tablespoons) caster sugar", "30ml (2 tablespoons) water", "¼ teaspoon sea salt flakes"]
+    }
+  }
+}

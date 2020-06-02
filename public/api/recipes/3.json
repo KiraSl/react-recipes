@@ -1,0 +1,32 @@
+{
+  "id": 3,
+  "category": "small",
+  "title": "Asian-spiced sticky chicken drumettes",
+  "description": "Infused with sweet and spicy flavours, these sticky winglets (or whole wings) are cutlery-free goodness.",
+  "image": "/recipe-images/thumb/Chicken-wings.jpg",
+  "recipeDetail": {
+    "serves": "12",
+    "image": "/recipe-images/Chicken-wings.jpg",
+    "description": "<p>I have to start with a confession: I don't make popcorn for movie nights, I make a bowl of these sticky, spicy little winglets. There's something about being slumped on the couch, nibbling away on these, a stack of paper towels so I can wipe my fingers to fast-forward through all car chases (very few good movies hinge on the outcome of a car chase), a couple of cold beers – I am filled with domestic bliss. Odd, maybe, but true. </p> <p> Drumettes – the upper third of the wing joint – also make great party food because they're a bit easier to eat with one hand (the other holding a drink, of course) than a whole wing, and your guests can neatly wrap the single bone in a napkin and be done with it. It's easy on the cook, too, as they can be roasted a couple of dozen at a time. Use the whole wing if you like, and this recipe will happily work for 12 wings instead. </p> <p> It's a quick job to mix up the marinade and toss them in the fridge. You need to give them a full day's marinating to fully infuse all the flavours, but that's no work other than patience. Then 30 minutes in the oven and you're done. Domestic bliss, indeed.</p>",
+    "preparationSteps": [
+      "Whisk all the marinade ingredients (that's everything except the sesame seeds and the drumettes themselves) together in a small bowl.",
+      "Place the drumettes in a resealable plastic bag and pour over the marinade. Close the bag and give everything a gentle massage to get all the chicken pieces covered.",
+      "Put the bag in a bowl, in case of leakage, and refrigerate overnight.",
+      "When ready to cook, set your oven to 200°C (425°F).",
+      "Using tongs, remove the drumettes from the marinade and arrange on a foil-lined baking sheet. (If you have a rack to lift them up a little, use that, but it's not absolutely essential.) Reserve the remaining marinade.",
+      "Roast for 30 minutes, turning halfway through and basting occasionally with some of the reserved marinade, which will become sticky, dark glossy towards the end of the cooking time.",
+      "Sprinkle with the sesame seeds and serve."
+    ],
+    "ingredients": [
+      "12 chicken drumettes",
+      "2 tablespoon sambal oelek",
+      "2 tablespoons soy sauce",
+      "2 tablespoons honey",
+      "1 tablespoon rice wine or mirin",
+      "1 teaspoon sesame oil",
+      "1 teaspoon grated ginger",
+      "1 teaspoon grated garlic",
+      "1 teaspoon sesame seeds, for sprinkling"
+    ]
+  }
+}
