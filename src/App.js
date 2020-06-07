@@ -1,24 +1,9 @@
 import React from 'react'
-import { RecipeCard } from './RecipeCard'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HomePage } from './routes/HomePage'
 
 class App extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      recipes: [],
-    }
-  }
-
-  async componentDidMount() {
-    const response = await fetch('/api/recipes/all.json')
-    const recipes = await response.json()
-    this.setState({ recipes })
-  }
-
   render() {
-    const { recipes } = this.state
-
     return (
       <>
         <nav className="d-flex justify-content-center">
@@ -27,15 +12,11 @@ class App extends React.Component {
           </a>
         </nav>
         <div className="container">
-          <p className="text-center mb-4">Browse all the recipes here, select a category or search for an ingredient.</p>
-          <div className="row">
-            {recipes.map((recipe, i) =>
-              <RecipeCard
-                recipe={recipe}
-                key={i}
-              />
-            )}
-          </div>
+          <Router>
+            <Route exact path="/">
+              <HomePage />
+            </Route>
+          </Router>
         </div>
       </>
     )
