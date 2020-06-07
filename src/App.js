@@ -1,5 +1,6 @@
 import React from 'react'
-import { RecipeCard } from './RecipeCard'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HomePage } from './routes/HomePage'
 
 class App extends React.Component {
   constructor(props) {
@@ -27,15 +28,11 @@ class App extends React.Component {
           </a>
         </nav>
         <div className="container">
-          <p className="text-center mb-4">Browse all the recipes here, select a category or search for an ingredient.</p>
-          <div className="row">
-            {recipes.map((recipe, i) =>
-              <RecipeCard
-                recipe={recipe}
-                key={i}
-              />
-            )}
-          </div>
+          <Router>
+            <Route path="/">
+              <HomePage recipes={recipes}/>
+            </Route>
+          </Router>
         </div>
       </>
     )
