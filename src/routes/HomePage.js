@@ -1,10 +1,23 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { RecipeCard } from '../RecipeCard'
 
 class HomePage extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      recipes: [],
+    }
+  }
+
+  async componentDidMount() {
+    const response = await fetch('/api/recipes/all.json')
+    const recipes = await response.json()
+    this.setState({ recipes })
+  }
+
   render() {
-    const { recipes } = this.props
+    const { recipes } = this.state
 
     return (
       <>
@@ -15,10 +28,6 @@ class HomePage extends React.Component {
       </>
     )
   }
-}
-
-HomePage.propTypes = {
-  recipes: PropTypes.arrayOf(PropTypes.object),
 }
 
 export { HomePage }
