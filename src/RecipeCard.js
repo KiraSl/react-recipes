@@ -9,7 +9,7 @@ const propTypes = {
 
 const RecipeCard = ({ imageUrl, title, description }) => {
   return (
-    <div className="col-sm-6 col-lg-4 mb-4">
+    <div className="col-sm-6 col-lg-4 mb-4 d-flex">
       <div className="card">
         <img src={imageUrl} className="card-img-top" alt={title} />
         <div className="card-body">
