@@ -31,9 +31,7 @@ class App extends React.Component {
           <div className="row">
             {recipes.map((recipe, i) =>
               <RecipeCard
-                imageUrl={recipes[i].image}
-                title={recipes[i].title}
-                description={recipes[i].description}
+                recipe={recipe}
                 key={i}
               />
             )}
