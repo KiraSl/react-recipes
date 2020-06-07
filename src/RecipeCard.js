@@ -2,7 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const propTypes = {
-  recipe: PropTypes.object.isRequired,
+  recipe: PropTypes.shape({
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }),
 }
 
 const RecipeCard = ({ recipe }) => {
