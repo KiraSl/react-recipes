@@ -13,8 +13,8 @@ class App extends React.Component {
         </nav>
         <div className="container">
           <Router>
-            <Route path="/">
-              <HomePage recipes={recipes}/>
+            <Route exact path="/">
+              <HomePage />
             </Route>
           </Router>
         </div>
