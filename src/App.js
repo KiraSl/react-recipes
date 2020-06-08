@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { HomePage } from './routes/HomePage'
+import { RecipeDetails } from './routes/RecipeDetails'
 
 class App extends React.Component {
   render() {
@@ -13,8 +14,8 @@ class App extends React.Component {
         </nav>
         <div className="container">
           <Router>
-            <Route exact path="/">
-              <HomePage />
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/recipe/:id" render={routeProps => (<RecipeDetails {...routeProps}/>)}>
             </Route>
           </Router>
         </div>
