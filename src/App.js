@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { HomePage } from './routes/HomePage'
 import { RecipeDetails } from './routes/RecipeDetails'
 
-
 class App extends React.Component {
   render() {
     return (
