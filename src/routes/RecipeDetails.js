@@ -20,17 +20,15 @@ class RecipeDetails extends React.Component {
     const { recipe, recipe: {recipeDetail} } = this.state
 
     return (
-      <div>
-        <h2 className="text-center text-secondary text-uppercase mb-4">{recipe.title}</h2>
-        <p className="text-center">{recipe.description}</p>
-        <div className="text-center">
-          <img
-            src={recipeDetail && recipeDetail.image}
-            alt={recipe.title}
-            className="pb-4"
-          />
-        </div>
-        <div className="border-bottom pb-4 w-100">
+      <div className="text-center">
+        <h2 className="text-secondary text-uppercase mb-4">{recipe.title}</h2>
+        <p>{recipe.description}</p>
+        <img
+          src={recipeDetail && recipeDetail.image}
+          alt={recipe.title}
+          className="pb-4"
+        />
+        <div className="text-left border-bottom pb-4">
           {recipeDetail && recipeDetail.description}
         </div>
       </div>
