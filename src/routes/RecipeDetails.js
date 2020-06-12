@@ -6,35 +6,34 @@ class RecipeDetails extends React.Component {
     super(props)
 
     this.state = {
-      recipeDetails: {},
+      recipe: {},
     }
   }
 
   async componentDidMount() {
     const response = await fetch(`/api/recipes/${this.props.match.params.id}.json`)
-    const recipeDetails = await response.json()
-    this.setState({ recipeDetails })
+    const recipe = await response.json()
+    this.setState({ recipe })
   }
 
   render() {
-    const { recipeDetails } = this.state
-    const recipeInfo = recipeDetails.recipeDetail
+    const { recipe, recipe: {recipeDetail} } = this.state
 
     return (
-      <>
-        <div className="text-center container">
-          <h2 className="text-secondary text-uppercase mb-4">{recipeDetails.title}</h2>
-          <p>{recipeDetails.description}</p>
+      <div>
+        <h2 className="text-center text-secondary text-uppercase mb-4">{recipe.title}</h2>
+        <p className="text-center">{recipe.description}</p>
+        <div className="text-center">
           <img
-            src={recipeInfo && recipeInfo.image}
-            alt={recipeDetails.title}
+            src={recipeDetail && recipeDetail.image}
+            alt={recipe.title}
             className="pb-4"
           />
-          <div className="border-bottom pb-4 w-100">
-            {recipeInfo && recipeInfo.description}
-          </div>
         </div>
-      </>
+        <div className="border-bottom pb-4 w-100">
+          {recipeDetail && recipeDetail.description}
+        </div>
+      </div>
     )
   }
 }
