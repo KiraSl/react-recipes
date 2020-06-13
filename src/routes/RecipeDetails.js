@@ -24,12 +24,12 @@ class RecipeDetails extends React.Component {
         <h2 className="text-secondary text-uppercase mb-4">{recipe.title}</h2>
         <p>{recipe.description}</p>
         <img
-          src={recipeDetail && recipeDetail.image}
+          src={recipeDetail?.image}
           alt={recipe.title}
           className="pb-4"
         />
         <div className="text-left border-bottom pb-4">
-          {recipeDetail && recipeDetail.description}
+          {recipeDetail?.description}
         </div>
       </div>
     )
