@@ -28,8 +28,11 @@ class RecipeDetails extends React.Component {
           alt={recipe.title}
           className="pb-4"
         />
-        <div className="text-left border-bottom pb-4">
-          {recipeDetail?.description}
+        <div 
+          className="text-left border-bottom pb-4" 
+          dangerouslySetInnerHTML={
+            {__html: recipeDetail?.description}
+          }>
         </div>
       </div>
     )
