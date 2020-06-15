@@ -34,6 +34,24 @@ class RecipeDetails extends React.Component {
             {__html: recipeDetail?.description}
           }>
         </div>
+        <h6 className="text-left text-secondary text-uppercase mb-4 mt-4">{recipe.title}</h6>
+        <div className="row">
+          <div className="col-md-4">
+            <p className="text-left font-italic ">
+              Serves {recipeDetail?.serves}
+            </p>
+            <ul className="list-unstyled">
+              {recipeDetail?.ingredients.map(ingredient => (
+                <li className="text-left font-weight-bold">{ingredient}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="col-md-8">
+            {recipeDetail?.preparationSteps.map(step => (
+              <p className="text-left">{step}</p>
+            ))}
+          </div>
+        </div>
       </div>
     )
   }
