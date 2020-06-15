@@ -17,7 +17,7 @@ class RecipeDetails extends React.Component {
   }
 
   render() {
-    const { recipe, recipe: {recipeDetail} } = this.state
+    const { recipe, recipe: { recipeDetail } } = this.state
 
     return (
       <>
@@ -30,16 +30,16 @@ class RecipeDetails extends React.Component {
             className="pb-4"
           />
         </div>
-        <div 
+        <div
           className="border-bottom pb-4"
           dangerouslySetInnerHTML={
-            {__html: recipeDetail?.description}
+            { __html: recipeDetail?.description }
           }>
         </div>
         <h6 className="text-secondary text-uppercase my-4">{recipe.title}</h6>
         <div className="row">
           <div className="col-md-4">
-            <p className="font-italic ">
+            <p className="font-italic">
               Serves {recipeDetail?.serves}
             </p>
             <ul className="list-unstyled">
@@ -47,6 +47,16 @@ class RecipeDetails extends React.Component {
                 <li className="font-weight-bold" key={index}>{ingredient}</li>
               ))}
             </ul>
+            {recipeDetail?.subRecipeDetail && (
+              <>
+                <p className="font-italic">For the {recipeDetail.subRecipeDetail.title}</p>
+                <ul className="list-unstyled">
+                  {recipeDetail.subRecipeDetail.ingredients.map((ingredient, index) => (
+                    <li className="font-weight-bold" key={index}>{ingredient}</li>
+                  ))}
+                </ul>
+              </>
+            )}
           </div>
           <div className="col-md-8">
             {recipeDetail?.preparationSteps.map((step, index) => (
