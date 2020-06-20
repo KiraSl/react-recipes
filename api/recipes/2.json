@@ -1,0 +1,37 @@
+{
+  "id": 2,
+  "category": "slow",
+  "title": "Leek and brie risotto",
+  "description": "In a rich and comforting take on an Italian classic, creamy brie takes this risotto to another level.",
+  "image": "/recipe-images/thumb/Leek-brie-risotto-1080.jpg",
+  "recipeDetail": {
+    "serves": "2",
+    "image": "/recipe-images/Leek-brie-risotto-1080.jpg",
+    "description": "<p> there’s an italian mantra for all <em>risotti</em>, a recipe in just five words: <em>sofritto, riso, vino, brodo, condimenti.</em> </p> <p> <em>sofritto</em> is the flavour base, almost always made with onion of some sort and often with celery and carrot, softened but never browned. then <em>riso e vino:</em> rice and wine. </p> <blockquote> <p> <strong>cook's tip:</strong> the rice for making risotto has to be particularly starchy and short-grained. the most common variety is arborio and produces excellent results. if you can find it, the italian vialone nano is superb. </p> </blockquote> <p> <em>brodo</em> is broth or stock (although it can be many other liquids, such as coconut milk or the water from soaking dried mushrooms), added slowly and stirred until absorbed. finally, the <em>condimenti</em>, those ingredients added in the final moments of cooking which can include cheese, fresh herbs, fresh mushrooms and seafood.</p> <p> here the <em>sofritto</em> is made with leeks, garlic, mustard and dried oregano, and the <em>condimenti</em> are brie, lots of freshly-ground pepper and a scattering of snipped chives.</p> <p> leeks come in many sizes from baby pencil through to gigantic so i've specified a weight, using the white and pale green parts. the way leeks are grown pushes dirt into the layers, so it's better to wash them after they're sliced. </p>",
+    "preparationSteps": [
+      "Cut the leek in half lengthways and slice into thin half-moons. Wash thoroughly in a colander and drain. (It will look like an enormous amount. Don't worry: it cooks down.)",
+      "Put the butter, oil and leek into a heavy-based saucepan and grate in the clove of garlic.",
+      "Turn on medium heat and let the leek cook gently until very soft. It will take about 15 minutes; you don’t have to do anything other than give it an occasional stir and check that it’s not colouring.",
+      "Meanwhile, pour the stock into a small saucepan. Clamp on a lid and put it over low heat. It needs to be hot, but not boiling, in 15 minutes, so no rush.",
+      "Once the leeks have collapsed, add the oregano and stir in the rice until the grains are thoroughly coated. Add the blob of mustard and the vermouth, turn the heat up to medium-high and stir until no liquid remains.",
+      "Pour in about a third of the hot stock and simmer, insistently, until it has been absorbed. Stir often enough to stop it sticking. Add another third, wait for it to be absorbed, and the final third. It should take about 20 minutes.",
+      "Taste: the rice should be cooked and slightly al dente although but without any chalkiness. If you need to extend the cooking time, add a little water from the kettle.",
+      "Cut the brie into thick slices and stir through the risotto until melted. Taste again, checking for salt. Serve immediately, grinding over some black pepper with a generous hand and a sprinkle of snipped fresh chives."
+    ],
+    "ingredients": [
+      "175g (6 oz) leeks",
+      "25g (1 oz) butter",
+      "1 teaspoon olive oil",
+      "1 clove garlic",
+      "½ teaspoon dried oregano",
+      "125g (½ cup) vialone nano or arborio rice",
+      "½ teaspoon Dijon mustard",
+      "60ml (¼ cup) vermouth (or dry white wine)",
+      "500ml (2 cups) vegetable stock",
+      "100g (4 oz) brie",
+      "sea salt flakes",
+      "freshly ground black pepper",
+      "fresh chives, snipped, to serve"
+    ]
+  }
+}

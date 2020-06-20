@@ -1,0 +1,41 @@
+{
+  "id": 4,
+  "category": "side",
+  "title": "Sausages with tomato, spinach, red lentils and soft polenta",
+  "description": "My take on bangers and mash, with soft polenta and a tomatoey dressing of spinach leaves and red lentils.",
+  "image": "/recipe-images/thumb/Sausages.jpg",
+  "recipeDetail": {
+    "serves": "2",
+    "image": "/recipe-images/Sausages.jpg",
+    "description": "<p>I cook sausages because they are deeply unfashionable. At a time when a Paleo quinoa cheesecake is a real thing ('d link to it, but don't want to encourage such nonsense), it's the least I could do. </p> <p> This is my take on sausages and mash, pimped up with a tasty dressing of tomatoey spinach and lentils. In place of the mash, soft polenta flavoured with cheese and stock. It’s easy to make, requiring not much more from the cook than various bits of stirring, and you make the polenta while the sausages are gently braising, so there’s no multitasking business necessary. </p> <p> If you go in for exotically flavoured sausages, feel free to use them here. I follow the advice that you can judge the measure of a butcher by the quality of his pork sausages – it’s exactly how I settled on mine – and so I prefer them plain, though this is no less delicious for it.</p>",
+    "preparationSteps": [
+      "Heat the olive oil in a frying pan over medium-high heat. Brown the sausages all over and remove to a plate.",
+      "Cut the shallot in half and slice it into thin half-moons. Sauté in the frying pan and grate in the garlic. Cook until the onion just begins to colour.",
+      "Pour in the stock and stir in the fresh tomato, tomato paste and lentils. Let everything come to a simmer and return the sausages to the pan. Let them simmer away for 6 minutes while you make the polenta.",
+      "In a small saucepan, heat the milk and stock to the edge of a boil.",
+      "Pour the polenta in a fine, steady stream, whisking constantly. Turn down the heat and continue stirring for 3 minutes. The polenta is ready when it has thickened and starts to come away from the side of the saucepan. When it’s done, stir in the Parmesan cheese.",
+      "To serve, spoon the polenta into deep dishes and top with the sausages. Mix the spinach leaves into the lentil sauce, just long enough to wilt them. Taste the sauce, season with salt and pepper, and pour over the sausages."
+    ],
+    "ingredients": [
+      "4 pork sausages (or however many you want)",
+      "2 teaspoons olive oil",
+      "1 shallot or small onion",
+      "2 cloves garlic",
+      "1 large ripe Roma tomato, diced",
+      "2 tablespoons tomato paste",
+      "250ml (1 cup) chicken or vegetable stock",
+      "3 tablespoons red lentils",
+      "large handful baby spinach leaves, roughly chopped",
+      "sea salt flakes and freshly ground black pepper"
+    ],
+    "subRecipeDetail": {
+      "title": "polenta",
+      "ingredients": [
+        "125ml (½ cup) milk",
+        "125ml (½ cup) chicken or vegetable stock",
+        "50g (2 oz) instant polenta",
+        "25g (1 oz) Parmesan cheese, finely grated"
+      ]
+    }
+  }
+}

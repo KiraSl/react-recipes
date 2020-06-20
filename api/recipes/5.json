@@ -1,0 +1,30 @@
+{
+  "id": 5,
+  "category": "sweet",
+  "title": "Orange and blueberry cake",
+  "description": "A simple cake with intensely fruity flavours.",
+  "image": "/recipe-images/thumb/Orange-and-blueberry-cake.jpg",
+  "recipeDetail": {
+    "serves": "6-8",
+    "image": "/recipe-images/Orange-and-blueberry-cake.jpg",
+    "description": "<p>This is an uncomplicated cake but it has real presence thanks to the natural flavours of the fruit. The combination of orange and blueberries is wonderful, and I've restrained the sugar to let some their tartness shine through. </p> <p> I make it in a 3cm deep flan tin only because I like the fluted edges and, since it's a rather flat cake, hardly rising to the edges of the tin, it bakes faster. You can make it in any cake tin you like, of course; just bake until the edges are golden and you'll be fine. </p> <p> In keeping with its simplicity, there's no need to use an electric mixer. In fact, I think it's nicer to make cakes like this with a bowl and a wooden spoon, and it comes together very quickly with a few casual turns.</p>",
+    "preparationSteps": [
+      "Set your oven to 180°C (350°F).",
+      "Melt the butter and brush a little of it inside a 23cm (9-inch) loose-based flan tin or cake tin, setting the rest aside.",
+      "In a mixing bowl, stir the flour, baking powder and sugar together with a balloon whisk or fork until well combined.",
+      "Add the orange zest and juice, egg, milk and melted butter, stirring until combined. Pour the batter into the tin, scatter over half the blueberries and bake for 15 minutes.",
+      "Scatter the remaining blueberries across the cake, which should be just firm enough to stop them sinking too much, and continue to bake for a further 20 minutes or until the edges are nicely golden and the centre is cooked through when tested with a toothpick.",
+      "Let it cool on a wire rack for 10 minutes before turning out."
+    ],
+    "ingredients": [
+      "75g (3 oz) unsalted butter",
+      "150g (1 cup) flour",
+      "2 teaspoons baking powder",
+      "75g (⅓ cup) caster sugar",
+      "finely grated zest and 3 tablespoons juice from 1 orange",
+      "1 egg",
+      "80ml (⅓ cup) milk",
+      "100g (4 oz) blueberries"
+    ]
+  }
+}

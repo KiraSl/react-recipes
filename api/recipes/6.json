@@ -1,0 +1,31 @@
+{
+  "id": 6,
+  "category": "speedy",
+  "title": "Eggplants with a miso sauce",
+  "description": "Sesame-tinged eggplants in a dark, savoury sauce as a side dish or all by its good self.",
+  "image": "/recipe-images/thumb/Eggplants-FINAL-2.jpg",
+  "recipeDetail": {
+    "serves": "2",
+    "image": "/recipe-images/Eggplants-FINAL-2.jpg",
+    "description": "<p>This is my homespun version of a Japanese way with eggplants, fried in sesame-tinged oil with a few chilli flakes, sauced up with miso, soy, mirin and rice wine. It works as a lovely side dish – accommodating, too, as it doesn’t have to be served piping hot – though it’s substantial enough on its own. We often eat it unaccompanied by nothing but steamed rice. </p> <p> It’s a successful treatment for all kinds of eggplants, so as a guide I have specified a weight below, rather than a particular variety. If you’re using a large eggplant, cut it into 2cm (about 1 inch) cubes. For egg-sized baby eggplants, cut them into quarters, lengthways. For the long, slender Japanese eggplants, cut them in half lengthways.</p>",
+    "preparationSteps": [
+      "Place the canola oil, sesame oil and chilli flakes in a frying pan over medium heat. Warm through until the chilli flakes start to crackle.",
+      "Add the eggplants and fry, turning occasionally, until tender and golden all over.",
+      "Meanwhile, combine the soy sauce, mirin, rice wine and sugar in a small bowl, stirring until the sugar dissolves. Add the miso and water, mixing until smooth.",
+      "Add the miso mixture to the eggplants, tossing for a minute or so until everything is nicely coated and warmed through.",
+      "Transfer to your serving bowl or bowls. Sprinkle with a few sesame seeds and some roughly chopped coriander leaves if you have them to hand."
+    ],
+    "ingredients": [
+      "350g (12 oz) eggplant (see preparation note above)",
+      "1 tablespoon canola oil",
+      "1 teaspoon sesame oil",
+      "½ teaspoon dried red chilli flakes",
+      "2 tablespoons rice wine",
+      "1 tablespoon mirin",
+      "1 tablespoon sugar",
+      "1 teaspoon soy sauce",
+      "2 tablespoons white miso",
+      "1 tablespoon water"
+    ]
+  }
+}

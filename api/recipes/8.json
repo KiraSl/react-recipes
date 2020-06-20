@@ -1,0 +1,29 @@
+{
+  "id": 8,
+  "category": "sweet",
+  "title": "Fried bananas with coconut caramel",
+  "description": "A simple, delicious dessert with warm bananas and a creamy coconut caramel sauce.",
+  "image": "/recipe-images/thumb/Bananas-instagram.jpg",
+  "recipeDetail": {
+    "serves": "2",
+    "image": "/recipe-images/Bananas-instagram.jpg",
+    "description": "<p>Here’s a quickly-scaled dessert idea that you can whip up anytime and is especially useful when you find yourself with bananas that rapidly approaching their use-by date. </p> <p> The coconut caramel, sweet and wonderfully creamy, is easy beyond belief – no fiddling around with sugar thermometers required. Don’t worry if it seems too thin on the stovetop, as it thickens up beautifully once you put it in the fridge. </p> <p> I get out my chargrill pan for this, though you need to know that it works perfectly well if you grill your bananas under a hot overhead grill (broiler) or, indeed, the barbecue if that’s up and running. </p> <p> I like the little sweet “lady finger” bananas with this, though of course it works just as well with any bananas you have to hand.</p>",
+    "preparationSteps": [
+      "To make the coconut caramel, place the coconut milk, brown sugar and salt in a small saucepan over medium-high heat. Bring it up to a boil, turn the heat down a little to medium and stir until the sugar has dissolved.",
+      "Continue to cook, stirring occasionally, for 5 minutes, until dark, fragrant and beginning to thicken. Remove from the heat, let it cool slightly, and pour into a small bowl. Refrigerate for at least 30 minutes.",
+      "Heat a dry frying pan over medium-high heat and toast the coconut flakes. until lightly golden. Transfer to a small bowl and set aside.",
+      "Add the butter and olive oil (to stop the butter burning) to the pan. Peel and halve the bananas lengthways and cook in the butter for about 3 minutes a side, until golden.",
+      "Transfer the bananas to serving plates, drizzle some of the coconut caramel over and sprinkle with coconut flakes and pecans."
+    ],
+    "ingredients": [
+      "125ml (½ cup) coconut milk",
+      "4 tablespoons (¼ cup) light brown sugar",
+      "¼ teaspoon sea salt flakes",
+      "2 tablespoons butter",
+      "1 teaspoon olive oil",
+      "2 bananas",
+      "2 tablespoons coconut flakes",
+      "2 tablespoons pecans, chopped"
+    ]
+  }
+}
