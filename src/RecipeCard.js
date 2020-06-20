@@ -9,11 +9,11 @@ const RecipeCard = ({ recipe }) => {
   return (
     <div className="col-sm-6 col-lg-4 mb-4 d-flex">
       <div className="card">
-        <Link to={`/recipe/${id}`}>
-          <img src={image} className="card-img-top" alt={title} />
+        <Link to={`/react-recipes/recipe/${id}`}>
+          <img src={`/react-recipes${image}`} className="card-img-top" alt={title} />
         </Link>
         <div className="card-body">
-          <Link to={`/recipe/${id}`} className="h5 text-uppercase">
+          <Link to={`/react-recipes/recipe/${id}`} className="h5 text-uppercase">
             {title}
           </Link >
           <p className="card-text">{description}</p>

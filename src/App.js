@@ -8,13 +8,13 @@ class App extends React.Component {
     return (
       <Router>
         <nav className="d-flex justify-content-center">
-          <Link to="/" className="h1 my-4 text-primary">
+          <Link to="/react-recipes" className="h1 my-4 text-primary">
             React Recipes
           </Link>
         </nav>
         <div className="container">
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/recipe/:id" render={routeProps => (<RecipeDetails {...routeProps} />)} />
+          <Route exact path="/react-recipes" component={HomePage} />
+          <Route exact path="/react-recipes/recipe/:id" render={routeProps => (<RecipeDetails {...routeProps} />)} />
         </div>
       </Router>
     )

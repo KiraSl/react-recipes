@@ -11,7 +11,7 @@ class HomePage extends React.Component {
   }
 
   async componentDidMount() {
-    const response = await fetch('/api/recipes/all.json')
+    const response = await fetch('/react-recipes/api/recipes/all.json')
     const recipes = await response.json()
     this.setState({ recipes })
   }

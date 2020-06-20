@@ -11,7 +11,7 @@ class RecipeDetails extends React.Component {
   }
 
   async componentDidMount() {
-    const response = await fetch(`/api/recipes/${this.props.match.params.id}.json`)
+    const response = await fetch(`/react-recipes/api/recipes/${this.props.match.params.id}.json`)
     const recipe = await response.json()
     this.setState({ recipe })
   }
@@ -25,7 +25,7 @@ class RecipeDetails extends React.Component {
           <h2 className="text-secondary text-uppercase mb-4">{recipe.title}</h2>
           <p>{recipe.description}</p>
           <img
-            src={recipeDetail?.image}
+            src={`/react-recipes${recipeDetail?.image}`}
             alt={recipe.title}
             className="pb-4"
           />
