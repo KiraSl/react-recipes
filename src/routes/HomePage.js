@@ -24,22 +24,21 @@ class HomePage extends React.Component {
     this.setState({ recipes })
   }
 
-  toggleSelectedCategory() {
-    // if (title === this.state.recipeCategories.name) {
-    //   this.setState({ recipeCategories.isSelected: true})
-    //   console.log('>>>>', this.state)
-    // }
-    console.log('!!!', this.state)
+  toggleSelectedCategory(title) {
+    this.state.recipeCategories.map(category => {
+      category.isSelected = title === category.name && !category.isSelected
+      return category
+    })
   }
 
   render() {
     const { recipes, recipeCategories } = this.state
-      return (
+    return (
       <>
         <p className="text-center mb-4">Browse all the recipes here, select a category or search for an ingredient.</p>
         <div className="row d-flex justify-content-around">
           {recipeCategories.map(({ name, isSelected}) => (
-            <Category title={name} key={name} isSelected={isSelected} onClick={() => this.toggleSelectedCategory()}></Category>
+            <Category title={name} key={name} isSelected={isSelected} setParam={() => this.toggleSelectedCategory(name)} />
           ))}
         </div>
         <div className="row">
