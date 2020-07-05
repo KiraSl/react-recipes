@@ -1,22 +1,25 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Category } from '../Components/Category/Category'
 import { RecipeCard } from '../Components/RecipeCard/RecipeCard'
 
 class HomePage extends React.Component {
   constructor(props) {
-    super(props)
+    super(...arguments)
+    const isSelected = category => props.location.search.includes(`?category=${category}`)
 
     this.state = {
       recipes: [],
       recipeCategories: [
-        { name: 'speedy', isSelected: false },
-        { name: 'slow', isSelected: false },
-        { name: 'side', isSelected: false },
-        { name: 'small', isSelected: false },
-        { name: 'sweet', isSelected: false },
+        { name: 'speedy', isSelected: isSelected('speedy') },
+        { name: 'slow', isSelected: isSelected('slow') },
+        { name: 'side', isSelected: isSelected('side') },
+        { name: 'small', isSelected: isSelected('small') },
+        { name: 'sweet', isSelected: isSelected('sweet') },
       ],
     }
   }
+
 
   async componentDidMount() {
     const response = await fetch('/api/recipes/all.json')
@@ -47,6 +50,12 @@ class HomePage extends React.Component {
       </>
     )
   }
+}
+
+HomePage.propTypes = {
+  location: PropTypes.shapeOf({
+    search: PropTypes.string.isRequired,
+  }).isRequired,
 }
 
 export { HomePage }
