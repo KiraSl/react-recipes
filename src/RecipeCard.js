@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
-
 const RecipeCard = ({ recipe }) => {
   const { id, image, title, description } = recipe
 
@@ -15,7 +14,7 @@ const RecipeCard = ({ recipe }) => {
         <div className="card-body">
           <Link to={`/react-recipes/recipe/${id}`} className="h5 text-uppercase">
             {title}
-          </Link >
+          </Link>
           <p className="card-text">{description}</p>
         </div>
       </div>
@@ -25,7 +24,7 @@ const RecipeCard = ({ recipe }) => {
 
 RecipeCard.propTypes = {
   recipe: PropTypes.shape({
-    id: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
