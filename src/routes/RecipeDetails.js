@@ -1,63 +1,58 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
-import { query } from '../utils/helpers'
+import { gql, useQuery } from '@apollo/client'
 
 const RecipeDetails = (props) => {
-  const [recipe, setRecipe] = useState({})
-  useEffect(() => {
-    const fetchData = async () => {
-      const {
-        data: { recipe },
-      } = await query(`
-        {
-          recipe(id: ${props.match.params.id}) {
-            id
+  const recipe = gql`
+    {
+      recipe(id: ${props.match.params.id}) {
+        id
+        title
+        image
+        description
+        recipeDetail {
+          description
+          image
+          ingredients
+          preparationSteps
+          serves
+          subRecipeDetail {
             title
-            image
-            description
-            recipeDetail {
-              description
-              image
-              ingredients
-              preparationSteps
-              serves
-              subRecipeDetail {
-                title
-                ingredients
-              }
-            }
+            ingredients
           }
         }
-      `)
-      setRecipe(recipe)
+      }
     }
-    fetchData()
-  })
+  `
+  const { loading, error, data } = useQuery(recipe)
+
+  if (loading) return <p>Loading...</p>
+  if (error) return <p>Error :(</p>
 
   return (
     <>
       <div className="text-center">
-        <h2 className="text-secondary text-uppercase mb-4">{recipe.title}</h2>
-        <p>{recipe.description}</p>
-        <img src={`/react-recipes${recipe.recipeDetail?.image}`} alt={recipe.title} className="pb-4" />
+        <h2 className="text-secondary text-uppercase mb-4">{data.recipe.title}</h2>
+        <p>{data.recipe.description}</p>
+        <img src={`/react-recipes${data.recipe.recipeDetail?.image}`} alt={data.recipe.title} className="pb-4" />
       </div>
-      <div className="border-bottom pb-4" dangerouslySetInnerHTML={{ __html: recipe.recipeDetail?.description }}></div>
-      <h6 className="text-secondary text-uppercase my-4">{recipe.title}</h6>
+      <div className="border-bottom pb-4" dangerouslySetInnerHTML={{ __html: data.recipe.recipeDetail?.description }}></div>
+      <h6 className="text-secondary text-uppercase my-4">{data.recipe.title}</h6>
       <div className="row">
         <div className="col-md-4">
-          <p className="font-italic">Serves {recipe.recipeDetail?.serves}</p>
+          <p className="font-italic">Serves {data.recipe.recipeDetail?.serves}</p>
           <ul className="list-unstyled">
-            {recipe.recipeDetail?.ingredients.map((ingredient, index) => (
+            {data.recipe.recipeDetail?.ingredients.map((ingredient, index) => (
               <li className="font-weight-bold" key={index}>
                 {ingredient}
               </li>
             ))}
           </ul>
-          {recipe.recipeDetail?.subRecipeDetail && (
+          {data.recipe.recipeDetail?.subRecipeDetail && (
             <>
-              <p className="font-italic">For the {recipe.recipeDetail.subRecipeDetail.title}</p>
+              <p className="font-italic">For the {data.recipe.recipeDetail.subRecipeDetail.title}</p>
               <ul className="list-unstyled">
-                {recipe.recipeDetail.subRecipeDetail.ingredients.map((ingredient, index) => (
+                {data.recipe.recipeDetail.subRecipeDetail.ingredients.map((ingredient, index) => (
                   <li className="font-weight-bold" key={index}>
                     {ingredient}
                   </li>
@@ -67,7 +62,7 @@ const RecipeDetails = (props) => {
           )}
         </div>
         <div className="col-md-8">
-          {recipe.recipeDetail?.preparationSteps.map((step, index) => (
+          {data.recipe.recipeDetail?.preparationSteps.map((step, index) => (
             <p key={index}>{step}</p>
           ))}
         </div>
